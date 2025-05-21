@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+DK+Loopet:wght@100..400&display=swap');
+
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+          font-family: "Noto Sans", sans-serif;
+            
+        }
+        body{
+            align-items: center;
+            justify-content: center;
+            display: flex;
+            width: 100vw;
+            height: 100vh;
+           background: linear-gradient(to right, #141e30, #243b55);
+           color: #fff;
+        }
+
+        .counter{
+            align-items: center;
+            justify-content: center;
+            display: flex;
+         flex-direction: column;
+            text-align: center;
+
+        }
+        h1{
+            font-weight: normal;
+            margin-bottom: 50px;
+            font-size: 110px;
+            font-family: "Playwrite DK Loopet", cursive;
+        }
+        .timer_sec{
+              align-items: center;
+            justify-content: center;
+            display: flex;
+         
+            text-align: center;
+        }
+        .box{
+            margin-right: 30px;
+        }
+
+        h2{
+            font-size: 100px;
+        }
+        small{
+font-size: 16px;
+        }
+
+        @media screen and (max-width:992px) {
+                h1{
+            
+            font-size: 80px;
+          
+        }
+                h2{
+            font-size: 70px;
+        }
+        small{
+font-size: 14px;
+        }
+        }
+           @media screen and (max-width:767px) {
+                h1{
+            
+            font-size: 60px;
+          
+        }
+                h2{
+            font-size: 50px;
+        }
+        small{
+font-size: 12px;
+        }
+        }
+             @media screen and (max-width:567px) {
+                h1{
+            
+            font-size: 40px;
+          
+        }
+                h2{
+            font-size: 30px;
+        }
+        small{
+font-size: 10px;
+        }
+        }
